@@ -59,7 +59,7 @@ header .navbar ul li a:hover {
 }
 .container{
     max-width: 1200px;
-    min-width: 900px;
+    /* min-width: 900px; */
     margin: auto;
     padding: 40px 0px;
 }
@@ -87,7 +87,7 @@ p{
 }
 .content p{
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .btn{
     display: inline-block;
@@ -107,7 +107,17 @@ p{
 }
 .col1{
     width: 25%;
-    padding: 15px;
+    padding: 0px 15px;
+}
+.col1.box{
+    background: white;
+    box-shadow: -1px 9px 10px 0px #c7c7c7;
+    padding: 20px; 
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+.col1 .box img {
+    padding-bottom: 20px;
 }
 .box{
     text-align: center;
@@ -115,6 +125,11 @@ p{
     padding: 50px;
     transition-duration: 0.3s;
     border-radius: 6px;
+}
+
+.box h2{
+    font-size: 20px;
+    padding: 5px 0;
 }
 .box:hover{
     background: white;
@@ -125,7 +140,8 @@ p{
 }
 .col2{
     width: 33.33%;
-    padding: 0px 10px;
+    padding: 0px 15px;
+
 }
 .col2.box{
     background: white;
@@ -156,10 +172,10 @@ p{
     opacity: 0.9;
 }
 .col2 .box div div i{
-    width: 20px;
+    width: 30px;
 }
 .col2 .box i{
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 .date i{
     padding-right: 5px;
@@ -168,21 +184,19 @@ p{
     padding-right: 5px;
 }
 .col2 .box div div span {
-    font-size: 12px;
+    font-size: 14px;
 }
 .testimonial-header{
     text-align: center;
 }
 .user{
+    width: 25%;
     padding-left: 100px;
-}
-.user img{
-    height: 150px;
 }
 .test-content{
     width: 75%;
     padding-right: 100px;
-    padding: 30px 0px;
+    padding: 30px 18px;
 }
 .test-content p {
     line-height: 2.0;
@@ -224,7 +238,11 @@ footer.container{
     text-align: center;
     color: white;
     font-size: 13px;
-    font-weight: 500;
+    letter-spacing: 0.4px;
+    font-weight: 600;
     opacity: 0.9;
     padding-bottom: 20px;
+}
+.copyright span{
+    color: #21b573;
 }
